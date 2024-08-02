@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    display: flex;
+    border:2px solid black;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+#d1{
+    background-color: #5a12bb;
+    flex: 1 1 ;
+}
+#d2{
+    background-color: #ff09a2;
+}
+#d3{
+    background-color: #f1aa30;
+}
+#d4{
+    background-color: #79fe88;
+}
+#d5{
+    background-color: #abcdef;
+}
